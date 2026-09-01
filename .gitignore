@@ -25,16 +25,20 @@ token.json
 **/target/
 **/*.rs.bk
 *.pdb
+/src-tauri/gen/schemas/
 
 # --- Node.js & Vite (Frontend) ---
 node_modules/
 dist/
 dist-ssr/
 *.local
+logs
+*.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
+lerna-debug.log*
 
 # --- Sistema Operativo & IDEs ---
 .DS_Store
@@ -44,3 +48,8 @@ Desktop.ini
 !.vscode/extensions.json
 !.vscode/settings.json
 .idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
